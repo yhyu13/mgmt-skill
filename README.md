@@ -71,6 +71,15 @@ org-skill/
 │       ├── amazon-op1-op2.md
 │       ├── amazon-andon-cord.md
 │       └── amazon-reversible-decisions.md
+│   └── google/           # Google管理方法论
+│       ├── google-data-driven.md
+│       ├── google-okr.md
+│       ├── google-oxygen.md
+│       ├── google-aristotle.md
+│       ├── google-innovation-time.md
+│       ├── google-hiring.md
+│       ├── google-tgif.md
+│       └── google-10x.md
 ├── distill/              # 蒸馏流程和模板（MIT）
 │   ├── ORG-SKILL-模板.md
 │   └── 蒸馏流程.md
@@ -89,6 +98,7 @@ org-skill/
 | 丰田 | 10 | ✅ 已完成 |
 | Netflix | 8 | ✅ 已完成 |
 | Amazon | 10 | ✅ 已完成 |
+| Google | 8 | ✅ 已完成 |
 
 ### 华为管理方法论全景
 
@@ -147,6 +157,19 @@ org-skill/
 | 战略 | OP1/OP2年度计划+ST目标 | amazon-op1-op2 |
 | 运营 | 安灯绳（Andon Cord） | amazon-andon-cord |
 | 决策 | 崇尚行动+可逆决策 | amazon-reversible-decisions |
+
+### Google管理方法论全景
+
+| 层级 | 方法论 | 文件 |
+|------|--------|------|
+| 文化 | 数据驱动文化 | google-data-driven |
+| 战略 | OKR目标管理 | google-okr |
+| 管理 | Project Oxygen（氧气项目） | google-oxygen |
+| 团队 | Project Aristotle（亚里士多德项目） | google-aristotle |
+| 创新 | 20%自由时间+70/20/10 | google-innovation-time |
+| 人力 | 创意精英招聘法 | google-hiring |
+| 沟通 | TGIF+Default Open | google-tgif |
+| 创新 | 10x思维 | google-10x |
 
 ## 使用方式
 
