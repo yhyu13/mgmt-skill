@@ -80,6 +80,15 @@ org-skill/
 │       ├── google-hiring.md
 │       ├── google-tgif.md
 │       └── google-10x.md
+│   └── alibaba/         # 阿里巴巴管理方法论
+│       ├── alibaba-values.md
+│       ├── alibaba-hrbp.md
+│       ├── alibaba-three-axes.md
+│       ├── alibaba-performance.md
+│       ├── alibaba-partnership.md
+│       ├── alibaba-middle-office.md
+│       ├── alibaba-iron-army.md
+│       └── alibaba-talent-grid.md
 ├── distill/              # 蒸馏流程和模板（MIT）
 │   ├── ORG-SKILL-模板.md
 │   └── 蒸馏流程.md
@@ -99,6 +108,7 @@ org-skill/
 | Netflix | 8 | ✅ 已完成 |
 | Amazon | 10 | ✅ 已完成 |
 | Google | 8 | ✅ 已完成 |
+| 阿里巴巴 | 8 | ✅ 已完成 |
 
 ### 华为管理方法论全景
 
@@ -170,6 +180,19 @@ org-skill/
 | 人力 | 创意精英招聘法 | google-hiring |
 | 沟通 | TGIF+Default Open | google-tgif |
 | 创新 | 10x思维 | google-10x |
+
+### 阿里巴巴管理方法论全景
+
+| 层级 | 方法论 | 文件 |
+|------|--------|------|
+| 文化 | 六脉神剑价值观体系 | alibaba-values |
+| 人力 | 政委体系（HRBP） | alibaba-hrbp |
+| 管理 | 管理三板斧（九板斧） | alibaba-three-axes |
+| 考核 | 361绩效双轨制 | alibaba-performance |
+| 治理 | 合伙人制度 | alibaba-partnership |
+| 组织 | 中台战略 | alibaba-middle-office |
+| 执行 | 阿里铁军 | alibaba-iron-army |
+| 人才 | 人才盘点九宫格 | alibaba-talent-grid |
 
 ## 使用方式
 
