@@ -40,6 +40,17 @@ org-skill/
 │       ├── bytedance-growth.md
 │       ├── bytedance-global.md
 │       └── bytedance-philosophy.md
+│   └── toyota/           # 丰田管理方法论
+│       ├── toyota-way.md
+│       ├── toyota-tps.md
+│       ├── toyota-5s.md
+│       ├── toyota-kanban.md
+│       ├── toyota-a3.md
+│       ├── toyota-5why.md
+│       ├── toyota-andon.md
+│       ├── toyota-kaizen.md
+│       ├── toyota-people.md
+│       └── toyota-vsm.md
 ├── distill/              # 蒸馏流程和模板（MIT）
 │   ├── ORG-SKILL-模板.md
 │   └── 蒸馏流程.md
@@ -55,6 +66,7 @@ org-skill/
 |------|---------|------|
 | 华为 | 12 | ✅ 已完成 |
 | 字节跳动 | 12 | ✅ 已完成 |
+| 丰田 | 10 | ✅ 已完成 |
 
 ### 华为管理方法论全景
 
