@@ -27,6 +27,19 @@ org-skill/
 │       ├── huawei-incentive.md
 │       ├── huawei-entropy.md
 │       └── huawei-basiclaw.md
+│   └── bytedance/        # 字节跳动管理方法论
+│       ├── bytedance-cnc.md
+│       ├── bytedance-okr.md
+│       ├── bytedance-platform.md
+│       ├── bytedance-talent.md
+│       ├── bytedance-feishu.md
+│       ├── bytedance-culture.md
+│       ├── bytedance-race.md
+│       ├── bytedance-abtest.md
+│       ├── bytedance-compensation.md
+│       ├── bytedance-growth.md
+│       ├── bytedance-global.md
+│       └── bytedance-philosophy.md
 ├── distill/              # 蒸馏流程和模板（MIT）
 │   ├── ORG-SKILL-模板.md
 │   └── 蒸馏流程.md
@@ -41,6 +54,7 @@ org-skill/
 | 组织 | 方法论数 | 状态 |
 |------|---------|------|
 | 华为 | 12 | ✅ 已完成 |
+| 字节跳动 | 12 | ✅ 已完成 |
 
 ### 华为管理方法论全景
 
@@ -54,6 +68,23 @@ org-skill/
 | 供应链 | ISC | huawei-isc |
 | 人力 | PBC / 干部管理 / 科学分钱 | huawei-pbc / cadre / incentive |
 | 文化 | 熵减 / 华为基本法 | huawei-entropy / basiclaw |
+
+### 字节跳动管理方法论全景
+
+| 层级 | 方法论 | 文件 |
+|------|--------|------|
+| 管理哲学 | Context, not Control | bytedance-cnc |
+| 目标管理 | OKR体系 | bytedance-okr |
+| 组织架构 | 蜂窝中台+分布式创业网络 | bytedance-platform |
+| 人才 | 高人才密度 | bytedance-talent |
+| 协作 | 飞书 | bytedance-feishu |
+| 文化 | 字节范 | bytedance-culture |
+| 创新 | 内部赛马+动态韧性 | bytedance-race |
+| 产品 | 数据驱动+A/B测试 | bytedance-abtest |
+| 人力 | 绩效薪酬体系 | bytedance-compensation |
+| 增长 | 增长中台+算法推荐 | bytedance-growth |
+| 国际化 | 本地化运营+双壳架构 | bytedance-global |
+| 战略 | 务实浪漫+延迟满足 | bytedance-philosophy |
 
 ## 使用方式
 
