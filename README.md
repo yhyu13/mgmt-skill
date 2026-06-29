@@ -60,6 +60,17 @@ org-skill/
 │       ├── netflix-aligned-coupled.md
 │       ├── netflix-minimal-rules.md
 │       └── netflix-compensation.md
+│   └── amazon/           # Amazon管理方法论
+│       ├── amazon-day1.md
+│       ├── amazon-leadership-principles.md
+│       ├── amazon-working-backwards.md
+│       ├── amazon-six-page.md
+│       ├── amazon-bar-raiser.md
+│       ├── amazon-single-threaded.md
+│       ├── amazon-two-pizza.md
+│       ├── amazon-op1-op2.md
+│       ├── amazon-andon-cord.md
+│       └── amazon-reversible-decisions.md
 ├── distill/              # 蒸馏流程和模板（MIT）
 │   ├── ORG-SKILL-模板.md
 │   └── 蒸馏流程.md
@@ -77,6 +88,7 @@ org-skill/
 | 字节跳动 | 12 | ✅ 已完成 |
 | 丰田 | 10 | ✅ 已完成 |
 | Netflix | 8 | ✅ 已完成 |
+| Amazon | 10 | ✅ 已完成 |
 
 ### 华为管理方法论全景
 
@@ -120,6 +132,21 @@ org-skill/
 | 组织 | 高度一致，松散耦合 | netflix-aligned-coupled |
 | 制度 | 极简规则 | netflix-minimal-rules |
 | 人力 | 顶薪制 | netflix-compensation |
+
+### Amazon管理方法论全景
+
+| 层级 | 方法论 | 文件 |
+|------|--------|------|
+| 文化 | Day 1文化 | amazon-day1 |
+| 文化 | 16条领导力原则 | amazon-leadership-principles |
+| 研发 | 逆向工作法（PR/FAQ） | amazon-working-backwards |
+| 决策 | 6页纸备忘录 | amazon-six-page |
+| 人力 | 抬杆者招聘法（Bar Raiser） | amazon-bar-raiser |
+| 组织 | 单线程领导 | amazon-single-threaded |
+| 组织 | 两个披萨团队 | amazon-two-pizza |
+| 战略 | OP1/OP2年度计划+ST目标 | amazon-op1-op2 |
+| 运营 | 安灯绳（Andon Cord） | amazon-andon-cord |
+| 决策 | 崇尚行动+可逆决策 | amazon-reversible-decisions |
 
 ## 使用方式
 
