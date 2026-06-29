@@ -51,6 +51,15 @@ org-skill/
 │       ├── toyota-kaizen.md
 │       ├── toyota-people.md
 │       └── toyota-vsm.md
+│   └── netflix/          # Netflix管理方法论
+│       ├── netflix-culture.md
+│       ├── netflix-talent-density.md
+│       ├── netflix-candor.md
+│       ├── netflix-context-not-control.md
+│       ├── netflix-informed-captain.md
+│       ├── netflix-aligned-coupled.md
+│       ├── netflix-minimal-rules.md
+│       └── netflix-compensation.md
 ├── distill/              # 蒸馏流程和模板（MIT）
 │   ├── ORG-SKILL-模板.md
 │   └── 蒸馏流程.md
@@ -67,6 +76,7 @@ org-skill/
 | 华为 | 12 | ✅ 已完成 |
 | 字节跳动 | 12 | ✅ 已完成 |
 | 丰田 | 10 | ✅ 已完成 |
+| Netflix | 8 | ✅ 已完成 |
 
 ### 华为管理方法论全景
 
@@ -97,6 +107,19 @@ org-skill/
 | 增长 | 增长中台+算法推荐 | bytedance-growth |
 | 国际化 | 本地化运营+双壳架构 | bytedance-global |
 | 战略 | 务实浪漫+延迟满足 | bytedance-philosophy |
+
+### Netflix管理方法论全景
+
+| 层级 | 方法论 | 文件 |
+|------|--------|------|
+| 文化 | 自由与责任文化（F&R飞轮） | netflix-culture |
+| 人力 | 人才密度（Dream Team + Keeper Test） | netflix-talent-density |
+| 文化 | 极致坦诚（4A反馈 + 360度） | netflix-candor |
+| 管理 | Context, not Control | netflix-context-not-control |
+| 管理 | 知情船长决策模型 | netflix-informed-captain |
+| 组织 | 高度一致，松散耦合 | netflix-aligned-coupled |
+| 制度 | 极简规则 | netflix-minimal-rules |
+| 人力 | 顶薪制 | netflix-compensation |
 
 ## 使用方式
 
