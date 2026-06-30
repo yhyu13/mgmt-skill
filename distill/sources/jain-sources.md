@@ -30,4 +30,4 @@
 | # | 数据点 | 来源 | 蒸馏使用 |
 |---|--------|------|---------|
 | 1 | IDEO购物车重新设计：ABC Nightline挑战IDEO在5天内重新设计超市购物车，通过共情观察+快速原型，产出革命性设计 | ABC Nightline 1999 | jain-design-thinking.md |
-| 2 | Oral-B儿童牙刷：IDEO观察儿童握
+| 2 | Oral-B儿童牙刷：IDEO观察儿童握牙刷方式(拳头握而非手指握)，发现成人牙刷缩小版是错误思路，设计出粗柄软胶儿童牙刷，上市后成为品类第一 | Tim Brown《设计改变一切》 | jain-design-thinking.md |

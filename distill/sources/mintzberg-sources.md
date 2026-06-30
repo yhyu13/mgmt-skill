@@ -20,4 +20,17 @@
 | # | 标题 | URL | 核心观点 | 蒸馏使用 |
 |---|------|-----|---------|---------|
 | 1 | Crafting Strategy (HBR 1987) | https://hbr.org/1987/07/crafting-strategy | 战略手艺化核心论文；陶艺隐喻；涌现战略；战略变革的量子跃迁模式 | mintzberg-crafting-strategy.md |
-| 2 | The Manager's Job: Folklore and Fact (HBR 1975) | https://hbr.org/1975/07/the-managers-job-folklore-and-fact | 管理10角色原始论文；管理者工作节奏快/碎片化/口头沟通为主；打破管理
+| 2 | The Manager's Job: Folklore and Fact (HBR 1975) | https://hbr.org/1975/07/the-managers-job-folklore-and-fact | 管理10角色原始论文；管理者工作节奏快/碎片化/口头沟通为主；打破管理四大神话 | mintzberg-crafting-strategy.md |
+
+## 三、演讲/访谈
+
+（暂无）
+
+## 四、案例数据
+
+| # | 数据点 | 来源 | 蒸馏使用 |
+|---|--------|------|---------|
+| 1 | 本田摩托车进入美国：原本只想卖小排量摩托车，却意外发现美国市场对小型轻便摩托的需求，涌现出全新战略 | HBR 1987 | mintzberg-crafting-strategy.md |
+| 2 | 宜家战略涌现：最初因竞争对手封杀导致只能自建家具卖场，被迫发展出自助提货+平板包装模式，后成为核心竞争力 | HBR 1987 | mintzberg-crafting-strategy.md |
+| 3 | 加拿大国家电影局：从计划型组织自然演化为临时体组织，体现配置学派的情境适配 | Mintzberg on Management 1989 | mintzberg-crafting-strategy.md |
+| 4 | 大众汽车Quantum战略变革：长期稳定期后突然战略转向，验证战略量子跃迁模式 | HBR 1987 | mintzberg-crafting-strategy.md |

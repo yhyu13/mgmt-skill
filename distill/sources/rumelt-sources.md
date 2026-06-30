@@ -30,4 +30,8 @@
 
 | # | 数据点 | 来源 | 蒸馏使用 |
 |---|--------|------|---------|
-| 1 | 苹果1998转型：乔布斯回归后诊断
+| 1 | 苹果1998转型：乔布斯回归后诊断核心挑战=产品线过于复杂，指导方针=聚焦少数产品，连贯行动=砍掉70%产品线+专注4条产品+投资iMac，一年内从亏损10亿到盈利3亿 | Good Strategy Bad Strategy 2011 | rumelt-good-strategy.md |
+| 2 | IBM战略诊断：郭士纳诊断IBM核心挑战=各事业部各自为战无法提供整合解决方案，指导方针=统一IBM为一个公司，连贯行动=取消事业部制/统一薪酬/整合销售 | Good Strategy Bad Strategy 2011 | rumelt-good-strategy.md |
+| 3 | 阿富汗战争战略：美国战略失败=把目标当战略（"建立民主阿富汗"），缺少诊断和连贯行动，投入万亿美元却无法解决核心挑战 | Good Strategy Bad Strategy 2011 | rumelt-good-strategy.md |
+| 4 | 格罗夫Intel转型：从存储器到微处理器，诊断=日本存储器成本优势不可逆，指导方针=退出存储器，连贯行动=关厂/裁员/全力投入CPU | Good Strategy Bad Strategy 2011 | rumelt-good-strategy.md |
+| 5 | 马歇尔计划：诊断=欧洲经济崩溃将导致政治崩溃和苏联扩张，指导方针=经济重建优先于惩罚，连贯行动=大规模援助+市场机制+协调分配 | Good Strategy Bad Strategy 2011 | rumelt-good-strategy.md |

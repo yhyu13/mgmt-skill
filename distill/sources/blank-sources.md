@@ -22,4 +22,11 @@
 
 | # | 标题 | 核心观点 | 蒸馏使用 |
 |---|------|---------|---------|
-| 1 | Stanford eCorner演讲系列 | "Get out of the building"核心信
+| 1 | Stanford eCorner演讲系列 | "Get out of the building"核心信条；创业不是执行已知计划而是探索未知 | blank-customer-development.md |
+
+## 四、案例数据
+
+| # | 数据点 | 来源 | 蒸馏使用 |
+|---|--------|------|---------|
+| 1 | E.piphany客户发现：Blank亲自走完客户发现全流程，6个月内从"销售自动化"转向"营销自动化"，找到产品-市场匹配 | 《四步创业法》 | blank-customer-development.md |
+| 2 | ARM客户验证：在客户验证阶段发现授权模式比卖芯片更适合IP商业模式，完成商业模式转型 | 《创业公司所有者手册》 | blank-customer-development.md |
