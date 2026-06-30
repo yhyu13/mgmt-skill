@@ -218,6 +218,11 @@ mgmt-skill/
 | 杰克·韦尔奇 | 2 | ✅ 已完成 |
 | 萨提亚·纳德拉 | 2 | ✅ 已完成 |
 | 雷·达利欧 | 2 | ✅ 已完成 |
+| 菲利普·科特勒 | 2 | ✅ 已完成 |
+| 迈克尔·波特 | 2 | ✅ 已完成 |
+| 戴维·尤里奇 | 2 | ✅ 已完成 |
+| 克莱顿·克里斯坦森 | 2 | ✅ 已完成 |
+| 埃里克·莱斯 | 1 | ✅ 已完成 |
 
 ### 学科横切
 
@@ -445,6 +450,40 @@ mgmt-skill/
 |------|--------|------|---------|
 | 领导力 | 极度透明+创意择优 | dalio-radical-transparency | leadership |
 | 领导力 | 原则体系 | dalio-principles | leadership |
+
+### 科特勒营销方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 营销 | 营销管理(4P→4C→4R+STP) | kotler-marketing-management | marketing |
+| 营销 | 营销5.0(技术+人文) | kotler-marketing-5 | marketing |
+
+### 波特战略方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 战略 | 竞争战略(五力+三大通用战略) | porter-competitive-strategy | strategy |
+| 战略 | 价值链+钻石模型 | porter-value-chain | strategy |
+
+### 尤里奇HR方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 人力 | HRBP四角色模型 | ulrich-hrbp | hr |
+| 人力 | HR价值主张+HR转型 | ulrich-hr-value | hr |
+
+### 克里斯坦森创新方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 战略 | 颠覆式创新+RPV框架 | christensen-disruptive-innovation | strategy |
+| 战略 | 待办任务理论(JTBD) | christensen-jtbd | strategy |
+
+### 莱斯研发方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 研发 | 精益创业(Lean Startup) | ries-lean-startup | rd |
 
 ## 使用方式
 

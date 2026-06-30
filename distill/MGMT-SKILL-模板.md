@@ -33,10 +33,12 @@
 ```markdown
 ---
 name: [source-name]-[methodology]
-source_type: org | individual
+source_type: org | individual | book
 org: [组织名]（source_type=org时）
 person: [人名]（source_type=individual时）
 role: [角色/职位]（source_type=individual时）
+book: [书名]（source_type=book时）
+author: [作者]（source_type=book时）
 category: [战略|研发|营销|销售|服务|供应链|人力|文化|管理|组织设计|创新]
 discipline: [hr|marketing|sales|strategy|rd|service|supply-chain|culture|management|leadership|org-design|innovation|product|collaboration|finance]
 nuwa_skill: [nuwa-skill中的SKILL名称]（无则留空）
