@@ -1,5 +1,7 @@
 ---
 name: huawei-incentive
+source_type: org
+discipline: hr
 org: 华为
 category: 人力
 tags: [激励机制, 科学分钱, 虚拟受限股, TUP, 价值链, 以奋斗者为本]

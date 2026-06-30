@@ -1,5 +1,7 @@
 ---
 name: pdl-employee-dignity
+source_type: org
+discipline: hr
 org: 胖东来
 category: 人力
 tags: [委屈奖, 不开心假, 7小时工作制, 员工尊严, 心理安全]

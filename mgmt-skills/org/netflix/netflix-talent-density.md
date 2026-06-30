@@ -1,5 +1,7 @@
 ---
 name: netflix-talent-density
+source_type: org
+discipline: hr
 org: Netflix
 category: 人力
 tags: [人才密度, Dream Team, Keeper Test, 主动淘汰, 高绩效]

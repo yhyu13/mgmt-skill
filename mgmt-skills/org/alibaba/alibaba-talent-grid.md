@@ -1,5 +1,7 @@
 ---
 name: alibaba-talent-grid
+source_type: org
+discipline: hr
 org: 阿里巴巴
 category: 人才
 tags: [人才盘点, 九宫格, 业绩潜力, 明星小白兔野狗, 晋升机制]

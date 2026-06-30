@@ -1,5 +1,7 @@
 ---
 name: netflix-compensation
+source_type: org
+discipline: hr
 org: Netflix
 category: 人力
 tags: [顶薪制, Top of Market, 单一薪酬包, 现金股票选择, 无奖金驱动]

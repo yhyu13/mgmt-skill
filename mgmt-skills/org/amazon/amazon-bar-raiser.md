@@ -1,5 +1,7 @@
 ---
 name: amazon-bar-raiser
+source_type: org
+discipline: hr
 org: Amazon
 category: 人力
 tags: [抬杆者, Bar Raiser, 结构化面试, 一票否决, STAR方法]

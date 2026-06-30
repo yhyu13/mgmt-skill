@@ -1,5 +1,7 @@
 ---
 name: alibaba-hrbp
+source_type: org
+discipline: hr
 org: 阿里巴巴
 category: 人力
 tags: [政委, HRBP, 文化守护者, 业务伙伴, 人才开发者]

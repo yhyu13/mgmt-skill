@@ -1,5 +1,7 @@
 ---
 name: bytedance-talent
+source_type: org
+discipline: hr
 org: 字节跳动
 category: 人力
 tags: [人才密度, 招聘, 晋升, 去层级, 人才原教旨主义, 校招生]

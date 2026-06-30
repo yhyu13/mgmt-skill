@@ -1,5 +1,7 @@
 ---
 name: huawei-pbc
+source_type: org
+discipline: hr
 org: 华为
 category: 人力
 tags: [绩效管理, PBC, 个人绩效承诺, 战略解码, 末位淘汰]

@@ -1,5 +1,7 @@
 ---
 name: pdl-profit-sharing
+source_type: org
+discipline: hr
 org: 胖东来
 category: 分配
 tags: [利润共享, 95%分配, 员工持股, 反资本逻辑, 利益共同体]

@@ -1,5 +1,7 @@
 ---
 name: huawei-cadre
+source_type: org
+discipline: hr
 org: 华为
 category: 人力
 tags: [干部管理, 干部七步曲, 干部四力, 之字形成长, 总干部部, 人才梯队]

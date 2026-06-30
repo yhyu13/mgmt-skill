@@ -1,5 +1,7 @@
 ---
 name: bytedance-growth
+source_type: org
+discipline: marketing
 org: 字节跳动
 category: 营销
 tags: [增长中台, 推荐算法, 数据飞轮, 信息分发, 增长拐点, AI]

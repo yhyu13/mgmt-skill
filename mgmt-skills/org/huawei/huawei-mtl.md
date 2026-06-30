@@ -1,5 +1,7 @@
 ---
 name: huawei-mtl
+source_type: org
+discipline: marketing
 org: 华为
 category: 营销
 tags: [MTL, 市场到线索, MI, MM, SCE, DG, MQA, 联合创新, 市场洞察, 营销管理]

@@ -1,5 +1,7 @@
 ---
 name: alibaba-performance
+source_type: org
+discipline: hr
 org: 阿里巴巴
 category: 考核
 tags: [361绩效, 双轨制, 价值观考核, 末位淘汰, 活力曲线]

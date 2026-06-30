@@ -1,5 +1,7 @@
 ---
 name: google-oxygen
+source_type: org
+discipline: hr
 org: Google
 category: 管理
 tags: [Project Oxygen, 管理者行为, 教练式管理, 数据验证管理, 10条行为]

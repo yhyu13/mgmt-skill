@@ -113,15 +113,23 @@ mgmt-skill/
 │   │       ├── pdl-customer-service.md
 │   │       ├── pdl-restraint.md
 │   │       └── pdl-self-governance.md
-│   │   └── apple/           # Apple管理方法论
-│   │       ├── apple-simplicity.md
-│   │       ├── apple-functional-org.md
-│   │       ├── apple-dri.md
-│   │       ├── apple-design-driven.md
-│   │       ├── apple-ecosystem.md
-│   │       ├── apple-supply-chain.md
-│   │       ├── apple-elite-team.md
-│   │       └── apple-university.md
+│   │   ├── apple/           # Apple管理方法论
+│   │   │   ├── apple-simplicity.md
+│   │   │   ├── apple-functional-org.md
+│   │   │   ├── apple-dri.md
+│   │   │   ├── apple-design-driven.md
+│   │   │   ├── apple-ecosystem.md
+│   │   │   ├── apple-supply-chain.md
+│   │   │   ├── apple-elite-team.md
+│   │   │   └── apple-university.md
+│   │   └── tesla/           # 特斯拉管理方法论
+│   │       ├── tesla-first-principles.md
+│   │       ├── tesla-algorithm.md
+│   │       ├── tesla-flat-org.md
+│   │       ├── tesla-hardcore.md
+│   │       ├── tesla-vertical-integration.md
+│   │       ├── tesla-cross-domain.md
+│   │       └── tesla-fail-fast.md
 │   ├── individual/           # 个人蒸馏（新增）
 │   │   └── (待蒸馏)
 │   └── discipline/           # 学科横切（新增）
@@ -150,12 +158,13 @@ mgmt-skill/
 | 阿里巴巴 | 8 | ✅ 已完成 |
 | 胖东来 | 7 | ✅ 已完成 |
 | Apple | 8 | ✅ 已完成 |
+| 特斯拉 | 7 | ✅ 已完成 |
 
 ### 个人蒸馏
 
 | 个人 | 方法论数 | 状态 |
 |------|---------|------|
-| (待蒸馏) | | |
+| 彼得·德鲁克 | 5 | ✅ 已完成 |
 
 ### 学科横切
 
@@ -271,6 +280,28 @@ mgmt-skill/
 | 运营 | 供应链极致管控 | apple-supply-chain |
 | 人力 | 小团队精英制 | apple-elite-team |
 | 学习 | Apple University | apple-university |
+
+### 特斯拉管理方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 思维 | 第一性原理 | tesla-first-principles | strategy |
+| 流程 | 五步工作法（算法） | tesla-algorithm | management |
+| 组织 | 极致扁平+信息穿透 | tesla-flat-org | org-design |
+| 文化 | 硬核文化+极致紧迫 | tesla-hardcore | culture |
+| 运营 | 垂直整合 | tesla-vertical-integration | supply-chain |
+| 创新 | 跨领域迁移 | tesla-cross-domain | innovation |
+| 迭代 | 快速试错迭代 | tesla-fail-fast | rd |
+
+### 德鲁克管理方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 战略 | 企业经营理论 | drucker-business-theory | strategy |
+| 管理 | 目标管理（MBO） | drucker-mbo | management |
+| 管理 | 卓有成效的管理者 | drucker-effective-executive | management |
+| 人力 | 知识工作者管理 | drucker-knowledge-worker | hr |
+| 创新 | 创新与企业家精神 | drucker-innovation | innovation |
 
 ## 使用方式
 

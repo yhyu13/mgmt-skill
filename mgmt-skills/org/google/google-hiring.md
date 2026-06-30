@@ -1,5 +1,7 @@
 ---
 name: google-hiring
+source_type: org
+discipline: hr
 org: Google
 category: 人力
 tags: [创意精英, 学习型动物, Rule of Four, 委员会制, Googleyness]

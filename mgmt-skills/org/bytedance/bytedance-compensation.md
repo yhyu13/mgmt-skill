@@ -1,5 +1,7 @@
 ---
 name: bytedance-compensation
+source_type: org
+discipline: hr
 org: 字节跳动
 category: 人力
 tags: [绩效, 薪酬, 职级, 期权, 人才密度, 拉开区分度]
