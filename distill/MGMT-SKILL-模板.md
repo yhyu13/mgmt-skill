@@ -39,6 +39,7 @@ person: [人名]（source_type=individual时）
 role: [角色/职位]（source_type=individual时）
 category: [战略|研发|营销|销售|服务|供应链|人力|文化|管理|组织设计|创新]
 discipline: [hr|marketing|sales|strategy|rd|service|supply-chain|culture|management|leadership|org-design|innovation|product|collaboration|finance]
+nuwa_skill: [nuwa-skill中的SKILL名称]（无则留空）
 tags: [标签1, 标签2, ...]
 license: CC BY-NC 4.0
 ---

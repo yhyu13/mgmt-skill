@@ -211,7 +211,13 @@ mgmt-skill/
 
 | 个人 | 方法论数 | 状态 |
 |------|---------|------|
-| (待蒸馏) | | |
+| 彼得·德鲁克 | 5 | ✅ 已完成 |
+| 稻盛和夫 | 3 | ✅ 已完成 |
+| 沃伦·本尼斯 | 2 | ✅ 已完成 |
+| 约翰·科特 | 2 | ✅ 已完成 |
+| 杰克·韦尔奇 | 2 | ✅ 已完成 |
+| 萨提亚·纳德拉 | 2 | ✅ 已完成 |
+| 雷·达利欧 | 2 | ✅ 已完成 |
 
 ### 学科横切
 
@@ -404,6 +410,41 @@ mgmt-skill/
 | 销售 | 代理商体系 | oppo-vivo-agent-system | sales |
 | 战略 | 段永平哲学 | oppo-vivo-duan-philosophy | strategy |
 | 产品 | 产品聚焦 | oppo-vivo-product-focus | product |
+
+### 本尼斯领导力方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 领导力 | 变革型领导力 | bennis-transformative-leadership | leadership |
+| 领导力 | 领导者vs管理者 | bennis-leaders-vs-managers | leadership |
+
+### 科特变革领导力方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 领导力 | 领导变革8步法 | kotter-8step-change | leadership |
+| 领导力 | 领导vs管理 | kotter-leadership-vs-management | leadership |
+
+### 韦尔奇领导力方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 领导力 | 区分制/活力曲线 | welch-differentiation | leadership |
+| 领导力 | 无边界组织+群策群力 | welch-boundaryless | leadership |
+
+### 纳德拉领导力方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 领导力 | 同理心领导力 | nadella-empathy-leadership | leadership |
+| 领导力 | 刷新微软 | nadella-hit-refresh | leadership |
+
+### 达利欧领导力方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 领导力 | 极度透明+创意择优 | dalio-radical-transparency | leadership |
+| 领导力 | 原则体系 | dalio-principles | leadership |
 
 ## 使用方式
 
