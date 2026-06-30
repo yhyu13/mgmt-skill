@@ -122,14 +122,6 @@ mgmt-skill/
 │   │   │   ├── apple-supply-chain.md
 │   │   │   ├── apple-elite-team.md
 │   │   │   └── apple-university.md
-│   │   ├── tesla/           # 特斯拉管理方法论
-│   │   │   ├── tesla-first-principles.md
-│   │   │   ├── tesla-algorithm.md
-│   │   │   ├── tesla-flat-org.md
-│   │   │   ├── tesla-hardcore.md
-│   │   │   ├── tesla-vertical-integration.md
-│   │   │   ├── tesla-cross-domain.md
-│   │   │   └── tesla-fail-fast.md
 │   │   └── meituan/          # 美团管理方法论
 │   │       ├── meituan-ground-force.md
 │   │       ├── meituan-high-freq.md
@@ -138,6 +130,47 @@ mgmt-skill/
 │   │       ├── meituan-wanghuiwen.md
 │   │       ├── meituan-infinite-game.md
 │   │       └── meituan-endgame.md
+│   │   ├── xiaomi/           # 小米管理方法论
+│   │   │   ├── xiaomi-seven-words.md
+│   │   │   ├── xiaomi-hit-product.md
+│   │   │   ├── xiaomi-participation.md
+│   │   │   ├── xiaomi-flat-org.md
+│   │   │   ├── xiaomi-ecosystem.md
+│   │   │   ├── xiaomi-ironman.md
+│   │   │   └── xiaomi-trend.md
+│   │   ├── mckinsey/         # 麦肯锡管理方法论
+│   │   │   ├── mckinsey-mece.md
+│   │   │   ├── mckinsey-pyramid.md
+│   │   │   ├── mckinsey-7s.md
+│   │   │   ├── mckinsey-problem-solving.md
+│   │   │   ├── mckinsey-up-or-out.md
+│   │   │   └── mckinsey-80-20.md
+│   │   ├── bridgewater/      # 桥水管理方法论
+│   │   │   ├── bridgewater-radical-transparency.md
+│   │   │   ├── bridgewater-principles.md
+│   │   │   ├── bridgewater-idea-meritocracy.md
+│   │   │   ├── bridgewater-believability.md
+│   │   │   ├── bridgewater-pain-button.md
+│   │   │   └── bridgewater-radical-truth.md
+│   │   ├── tencent/          # 腾讯管理方法论
+│   │   │   ├── tencent-product-driven.md
+│   │   │   ├── tencent-race.md
+│   │   │   ├── tencent-agile.md
+│   │   │   ├── tencent-ecosystem.md
+│   │   │   ├── tencent-user-value.md
+│   │   │   └── tencent-investment-strategy.md
+│   │   ├── haidilao/         # 海底捞管理方法论
+│   │   │   ├── haidilao-master-apprentice.md
+│   │   │   ├── haidilao-employee-empowerment.md
+│   │   │   ├── haidilao-service-as-management.md
+│   │   │   ├── haidilao-hands-change-fate.md
+│   │   │   └── haidilao-customer-extreme.md
+│   │   └── oppo-vivo/        # OPPO/vivo管理方法论
+│   │       ├── oppo-vivo-benfen.md
+│   │       ├── oppo-vivo-channel.md
+│   │       ├── oppo-vivo-agent-system.md
+│   │       ├── oppo-vivo-duan-philosophy.md
+│   │       └── oppo-vivo-product-focus.md
 │   ├── individual/           # 个人蒸馏（新增）
 │   │   └── (待蒸馏)
 │   └── discipline/           # 学科横切（新增）
@@ -166,14 +199,19 @@ mgmt-skill/
 | 阿里巴巴 | 8 | ✅ 已完成 |
 | 胖东来 | 7 | ✅ 已完成 |
 | Apple | 8 | ✅ 已完成 |
-| 特斯拉 | 7 | ✅ 已完成 |
 | 美团 | 7 | ✅ 已完成 |
+| 小米 | 7 | ✅ 已完成 |
+| 麦肯锡 | 6 | ✅ 已完成 |
+| 桥水 | 6 | ✅ 已完成 |
+| 腾讯 | 6 | ✅ 已完成 |
+| 海底捞 | 5 | ✅ 已完成 |
+| OPPO/vivo | 5 | ✅ 已完成 |
 
 ### 个人蒸馏
 
 | 个人 | 方法论数 | 状态 |
 |------|---------|------|
-| 彼得·德鲁克 | 5 | ✅ 已完成 |
+| (待蒸馏) | | |
 
 ### 学科横切
 
@@ -290,18 +328,6 @@ mgmt-skill/
 | 人力 | 小团队精英制 | apple-elite-team |
 | 学习 | Apple University | apple-university |
 
-### 特斯拉管理方法论全景
-
-| 层级 | 方法论 | 文件 | 学科标签 |
-|------|--------|------|---------|
-| 思维 | 第一性原理 | tesla-first-principles | strategy |
-| 流程 | 五步工作法（算法） | tesla-algorithm | management |
-| 组织 | 极致扁平+信息穿透 | tesla-flat-org | org-design |
-| 文化 | 硬核文化+极致紧迫 | tesla-hardcore | culture |
-| 运营 | 垂直整合 | tesla-vertical-integration | supply-chain |
-| 创新 | 跨领域迁移 | tesla-cross-domain | innovation |
-| 迭代 | 快速试错迭代 | tesla-fail-fast | rd |
-
 ### 美团管理方法论全景
 
 | 层级 | 方法论 | 文件 | 学科标签 |
@@ -314,15 +340,70 @@ mgmt-skill/
 | 战略 | 无限游戏 | meituan-infinite-game | strategy |
 | 战略 | 终局思维 | meituan-endgame | strategy |
 
-### 德鲁克管理方法论全景
+### 小米管理方法论全景
 
 | 层级 | 方法论 | 文件 | 学科标签 |
 |------|--------|------|---------|
-| 战略 | 企业经营理论 | drucker-business-theory | strategy |
-| 管理 | 目标管理（MBO） | drucker-mbo | management |
-| 管理 | 卓有成效的管理者 | drucker-effective-executive | management |
-| 人力 | 知识工作者管理 | drucker-knowledge-worker | hr |
-| 创新 | 创新与企业家精神 | drucker-innovation | innovation |
+| 管理 | 互联网七字诀 | xiaomi-seven-words | management |
+| 产品 | 爆款战略 | xiaomi-hit-product | product |
+| 营销 | 参与感 | xiaomi-participation | marketing |
+| 组织 | 扁平化组织 | xiaomi-flat-org | org-design |
+| 战略 | 生态链模式 | xiaomi-ecosystem | strategy |
+| 战略 | 铁人三项 | xiaomi-ironman | strategy |
+| 战略 | 顺势而为 | xiaomi-trend | strategy |
+
+### 麦肯锡管理方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 思维 | MECE原则 | mckinsey-mece | management |
+| 表达 | 金字塔原理 | mckinsey-pyramid | management |
+| 诊断 | 7S模型 | mckinsey-7s | org-design |
+| 方法 | 问题解决法 | mckinsey-problem-solving | management |
+| 人力 | Up or Out | mckinsey-up-or-out | hr |
+| 方法 | 80/20法则 | mckinsey-80-20 | management |
+
+### 桥水管理方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 文化 | 极度透明 | bridgewater-radical-transparency | culture |
+| 管理 | 原则体系 | bridgewater-principles | management |
+| 决策 | 创意择优 | bridgewater-idea-meritocracy | management |
+| 决策 | 可信度加权 | bridgewater-believability | management |
+| 进化 | 痛苦+反思=进步 | bridgewater-pain-button | culture |
+| 文化 | 极度求真 | bridgewater-radical-truth | culture |
+
+### 腾讯管理方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 产品 | 产品驱动 | tencent-product-driven | product |
+| 创新 | 赛马机制 | tencent-race | innovation |
+| 组织 | 敏捷组织 | tencent-agile | org-design |
+| 战略 | 生态化战略 | tencent-ecosystem | strategy |
+| 文化 | 用户价值为本 | tencent-user-value | culture |
+| 战略 | 投资赋能战略 | tencent-investment-strategy | strategy |
+
+### 海底捞管理方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 人力 | 师徒制 | haidilao-master-apprentice | hr |
+| 管理 | 员工授权 | haidilao-employee-empowerment | management |
+| 服务 | 服务即管理 | haidilao-service-as-management | service |
+| 人力 | 双手改变命运 | haidilao-hands-change-fate | hr |
+| 服务 | 极致顾客体验 | haidilao-customer-extreme | service |
+
+### OPPO/vivo管理方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 文化 | 本分文化 | oppo-vivo-benfen | culture |
+| 销售 | 线下渠道深度绑定 | oppo-vivo-channel | sales |
+| 销售 | 代理商体系 | oppo-vivo-agent-system | sales |
+| 战略 | 段永平哲学 | oppo-vivo-duan-philosophy | strategy |
+| 产品 | 产品聚焦 | oppo-vivo-product-focus | product |
 
 ## 使用方式
 

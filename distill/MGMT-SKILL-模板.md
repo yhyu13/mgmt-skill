@@ -38,7 +38,7 @@ org: [组织名]（source_type=org时）
 person: [人名]（source_type=individual时）
 role: [角色/职位]（source_type=individual时）
 category: [战略|研发|营销|销售|服务|供应链|人力|文化|管理|组织设计|创新]
-discipline: [hr|marketing|sales|strategy|rd|service|supply-chain|culture|management|org-design|innovation|product|collaboration]
+discipline: [hr|marketing|sales|strategy|rd|service|supply-chain|culture|management|leadership|org-design|innovation|product|collaboration|finance]
 tags: [标签1, 标签2, ...]
 license: CC BY-NC 4.0
 ---
@@ -227,10 +227,12 @@ license: CC BY-NC 4.0
 | supply-chain | 供应链管理 | 采购/物流/库存/供应商 |
 | culture | 文化管理 | 价值观/行为准则/仪式 |
 | management | 通用管理 | 决策/沟通/授权/规则 |
+| leadership | 领导力 | 领导风格/变革领导/危机领导/创始人领导力 |
 | org-design | 组织设计 | 架构/治理/分工/协作 |
 | innovation | 创新管理 | 创新机制/实验/探索 |
 | product | 产品管理 | 产品方法论/用户研究 |
 | collaboration | 协作管理 | 工具/流程/信息流 |
+| finance | 财务管理 | 预算/成本/业财融合/利润分配/审计 |
 
 ## 与女娲SKILL.md的区别
 
