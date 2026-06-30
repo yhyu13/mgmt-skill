@@ -171,10 +171,26 @@ mgmt-skill/
 │   │       ├── oppo-vivo-agent-system.md
 │   │       ├── oppo-vivo-duan-philosophy.md
 │   │       └── oppo-vivo-product-focus.md
-│   ├── individual/           # 个人蒸馏（新增）
-│   │   └── (待蒸馏)
-│   └── discipline/           # 学科横切（新增）
-│       └── (待蒸馏)
+│   ├── individual/           # 个人蒸馏（64人+5书，80个MGMT-SKILL.md）
+│   │   ├── drucker/          # 德鲁克（5个方法论）
+│   │   ├── inamori/          # 稻盛和夫（3个方法论）
+│   │   └── ...               # 共66个个人目录
+│   └── discipline/           # 学科横切（15个学科，15个横切文件）
+│       ├── hr-recruitment-and-development.md
+│       ├── strategy-competitive-and-corporate.md
+│       ├── culture-values-and-behavior.md
+│       ├── management-decision-and-operations.md
+│       ├── org-design-structure-and-governance.md
+│       ├── marketing-acquisition-and-brand.md
+│       ├── sales-conversion-and-channel.md
+│       ├── rd-innovation-and-product.md
+│       ├── supply-chain-lean-and-flow.md
+│       ├── service-customer-and-experience.md
+│       ├── leadership-style-and-change.md
+│       ├── innovation-disruption-and-experiment.md
+│       ├── product-method-and-user-research.md
+│       ├── collaboration-team-and-flow.md
+│       └── finance-measurement-and-value.md
 ├── distill/                  # 蒸馏流程和模板（MIT）
 │   ├── MGMT-SKILL-模板.md
 │   └── 蒸馏流程.md
@@ -278,9 +294,23 @@ mgmt-skill/
 
 ### 学科横切
 
-| 学科 | 来源数 | 状态 |
-|------|--------|------|
-| (待蒸馏) | | |
+| 学科 | 横切文件 | 纵切来源数 | 状态 |
+|------|---------|-----------|------|
+| hr 人事管理 | hr-recruitment-and-development.md | 26 | ✅ 已完成 |
+| strategy 战略管理 | strategy-competitive-and-corporate.md | 28 | ✅ 已完成 |
+| culture 文化管理 | culture-values-and-behavior.md | 20 | ✅ 已完成 |
+| management 通用管理 | management-decision-and-operations.md | 17 | ✅ 已完成 |
+| org-design 组织设计 | org-design-structure-and-governance.md | 15 | ✅ 已完成 |
+| marketing 营销管理 | marketing-acquisition-and-brand.md | 10 | ✅ 已完成 |
+| sales 销售管理 | sales-conversion-and-channel.md | 8 | ✅ 已完成 |
+| rd 研发管理 | rd-innovation-and-product.md | 9 | ✅ 已完成 |
+| supply-chain 供应链 | supply-chain-lean-and-flow.md | 9 | ✅ 已完成 |
+| service 服务管理 | service-customer-and-experience.md | 7 | ✅ 已完成 |
+| leadership 领导力 | leadership-style-and-change.md | 20 | ✅ 已完成 |
+| innovation 创新管理 | innovation-disruption-and-experiment.md | 10 | ✅ 已完成 |
+| product 产品管理 | product-method-and-user-research.md | 7 | ✅ 已完成 |
+| collaboration 协作管理 | collaboration-team-and-flow.md | 3 | ✅ 已完成 |
+| finance 财务管理 | finance-measurement-and-value.md | 2 | ✅ 已完成 |
 
 ### 华为管理方法论全景
 
