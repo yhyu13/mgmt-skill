@@ -122,14 +122,22 @@ mgmt-skill/
 │   │   │   ├── apple-supply-chain.md
 │   │   │   ├── apple-elite-team.md
 │   │   │   └── apple-university.md
-│   │   └── tesla/           # 特斯拉管理方法论
-│   │       ├── tesla-first-principles.md
-│   │       ├── tesla-algorithm.md
-│   │       ├── tesla-flat-org.md
-│   │       ├── tesla-hardcore.md
-│   │       ├── tesla-vertical-integration.md
-│   │       ├── tesla-cross-domain.md
-│   │       └── tesla-fail-fast.md
+│   │   ├── tesla/           # 特斯拉管理方法论
+│   │   │   ├── tesla-first-principles.md
+│   │   │   ├── tesla-algorithm.md
+│   │   │   ├── tesla-flat-org.md
+│   │   │   ├── tesla-hardcore.md
+│   │   │   ├── tesla-vertical-integration.md
+│   │   │   ├── tesla-cross-domain.md
+│   │   │   └── tesla-fail-fast.md
+│   │   └── meituan/          # 美团管理方法论
+│   │       ├── meituan-ground-force.md
+│   │       ├── meituan-high-freq.md
+│   │       ├── meituan-scientific-ops.md
+│   │       ├── meituan-basics.md
+│   │       ├── meituan-wanghuiwen.md
+│   │       ├── meituan-infinite-game.md
+│   │       └── meituan-endgame.md
 │   ├── individual/           # 个人蒸馏（新增）
 │   │   └── (待蒸馏)
 │   └── discipline/           # 学科横切（新增）
@@ -159,6 +167,7 @@ mgmt-skill/
 | 胖东来 | 7 | ✅ 已完成 |
 | Apple | 8 | ✅ 已完成 |
 | 特斯拉 | 7 | ✅ 已完成 |
+| 美团 | 7 | ✅ 已完成 |
 
 ### 个人蒸馏
 
@@ -292,6 +301,18 @@ mgmt-skill/
 | 运营 | 垂直整合 | tesla-vertical-integration | supply-chain |
 | 创新 | 跨领域迁移 | tesla-cross-domain | innovation |
 | 迭代 | 快速试错迭代 | tesla-fail-fast | rd |
+
+### 美团管理方法论全景
+
+| 层级 | 方法论 | 文件 | 学科标签 |
+|------|--------|------|---------|
+| 销售 | 地推铁军 | meituan-ground-force | sales |
+| 战略 | 高频打低频 | meituan-high-freq | strategy |
+| 管理 | 科学运营 | meituan-scientific-ops | management |
+| 管理 | 苦练基本功 | meituan-basics | management |
+| 管理 | 王慧文方法论 | meituan-wanghuiwen | management |
+| 战略 | 无限游戏 | meituan-infinite-game | strategy |
+| 战略 | 终局思维 | meituan-endgame | strategy |
 
 ### 德鲁克管理方法论全景
 
