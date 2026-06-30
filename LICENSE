@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 org-skill contributors
+Copyright (c) 2026 mgmt-skill contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,7 +22,7 @@ SOFTWARE.
 
 ---
 
-NOTE: The org-skills/ directory contains knowledge base files licensed under
+NOTE: The mgmt-skills/ directory contains knowledge base files licensed under
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
 Those files are NOT covered by this MIT license. See individual files for
 their license terms.
