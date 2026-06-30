@@ -89,6 +89,14 @@ org-skill/
 │       ├── alibaba-middle-office.md
 │       ├── alibaba-iron-army.md
 │       └── alibaba-talent-grid.md
+│   └── pangdonglai/     # 胖东来管理方法论
+│       ├── pdl-freedom-love.md
+│       ├── pdl-profit-sharing.md
+│       ├── pdl-employee-dignity.md
+│       ├── pdl-transparency.md
+│       ├── pdl-customer-service.md
+│       ├── pdl-restraint.md
+│       └── pdl-self-governance.md
 ├── distill/              # 蒸馏流程和模板（MIT）
 │   ├── ORG-SKILL-模板.md
 │   └── 蒸馏流程.md
@@ -109,6 +117,7 @@ org-skill/
 | Amazon | 10 | ✅ 已完成 |
 | Google | 8 | ✅ 已完成 |
 | 阿里巴巴 | 8 | ✅ 已完成 |
+| 胖东来 | 7 | ✅ 已完成 |
 
 ### 华为管理方法论全景
 
@@ -193,6 +202,18 @@ org-skill/
 | 组织 | 中台战略 | alibaba-middle-office |
 | 执行 | 阿里铁军 | alibaba-iron-army |
 | 人才 | 人才盘点九宫格 | alibaba-talent-grid |
+
+### 胖东来管理方法论全景
+
+| 层级 | 方法论 | 文件 |
+|------|--------|------|
+| 文化 | 自由与爱哲学 | pdl-freedom-love |
+| 分配 | 极致利润共享 | pdl-profit-sharing |
+| 人力 | 极致员工尊严 | pdl-employee-dignity |
+| 经营 | 极致透明经营 | pdl-transparency |
+| 服务 | 极致顾客服务 | pdl-customer-service |
+| 战略 | 反扩张克制 | pdl-restraint |
+| 治理 | 员工自治+轮值 | pdl-self-governance |
 
 ## 使用方式
 
