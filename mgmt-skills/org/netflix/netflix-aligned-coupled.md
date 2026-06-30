@@ -1,5 +1,7 @@
 ---
 name: netflix-aligned-coupled
+source_type: org
+discipline: org-design
 org: Netflix
 category: 组织
 tags: [高度一致, 松散耦合, Highly Aligned Loosely Coupled, 战略对齐, 自主执行]

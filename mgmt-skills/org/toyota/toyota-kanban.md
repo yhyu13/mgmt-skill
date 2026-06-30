@@ -3,6 +3,8 @@ name: toyota-kanban
 org: 丰田
 category: 供应链
 tags: [丰田, 看板, Kanban, 拉动式生产, 信号卡, 可视化, JIT]
+source_type: org
+discipline: supply-chain
 license: CC BY-NC 4.0
 ---
 

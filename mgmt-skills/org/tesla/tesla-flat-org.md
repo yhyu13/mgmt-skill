@@ -2,6 +2,8 @@
 name: tesla-flat-org
 org: Tesla
 category: 组织
+source_type: org
+discipline: org-design
 tags: [极致扁平, 信息穿透, 4级管理, CEO直达一线, 24小时解决]
 license: CC BY-NC 4.0
 ---

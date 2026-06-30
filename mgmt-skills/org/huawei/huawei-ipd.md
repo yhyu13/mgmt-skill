@@ -3,6 +3,8 @@ name: huawei-ipd
 org: 华为
 category: 研发
 tags: [IPD, 集成产品开发, PACE, PDT, DCP, TR, MM, CBB, 研发管理, 跨部门协同]
+source_type: org
+discipline: rd
 license: CC BY-NC 4.0
 ---
 

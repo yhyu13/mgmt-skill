@@ -1,5 +1,7 @@
 ---
 name: google-aristotle
+source_type: org
+discipline: collaboration
 org: Google
 category: 团队
 tags: [Project Aristotle, 心理安全, 团队效能, 心理安全感, 团队动力学]

@@ -3,6 +3,8 @@ name: huawei-ltc
 org: 华为
 category: 销售
 tags: [LTC, 线索到回款, 铁三角, AR, SR, FR, ATI, ATB, ATC, iSales, 销售管理, 合同执行]
+source_type: org
+discipline: sales
 license: CC BY-NC 4.0
 ---
 

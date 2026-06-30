@@ -1,5 +1,7 @@
 ---
 name: google-innovation-time
+source_type: org
+discipline: innovation
 org: Google
 category: 创新
 tags: [20%时间, 70/20/10, 自由探索, Demo Day, 创新资源配置]

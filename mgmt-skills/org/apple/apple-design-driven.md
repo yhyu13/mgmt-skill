@@ -1,5 +1,7 @@
 ---
 name: apple-design-driven
+source_type: org
+discipline: rd
 org: Apple
 category: 研发
 tags: [设计驱动, 从体验倒推技术, 设计统领工程, 科技人文, Jony Ive]

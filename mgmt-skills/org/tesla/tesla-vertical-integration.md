@@ -2,6 +2,8 @@
 name: tesla-vertical-integration
 org: Tesla
 category: 战略
+source_type: org
+discipline: strategy
 tags: [垂直整合, 白痴指数, 工厂即产品, 自研芯片, Gigafactory]
 license: CC BY-NC 4.0
 ---

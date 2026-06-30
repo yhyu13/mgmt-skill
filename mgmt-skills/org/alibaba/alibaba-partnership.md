@@ -1,5 +1,7 @@
 ---
 name: alibaba-partnership
+source_type: org
+discipline: org-design
 org: 阿里巴巴
 category: 治理
 tags: [合伙人制度, 董事会提名权, 控制权, 文化传承, 治理创新]

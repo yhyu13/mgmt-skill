@@ -3,6 +3,8 @@ name: amazon-reversible-decisions
 org: Amazon
 category: 决策
 tags: [可逆决策, Type 1 Type 2, 70%法则, 崇尚行动, Bias for Action]
+source_type: org
+discipline: management
 license: CC BY-NC 4.0
 ---
 

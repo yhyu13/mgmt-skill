@@ -3,6 +3,8 @@ name: huawei-basiclaw
 org: 华为
 category: 文化
 tags: [华为基本法, 宪章, 核心价值观, 价值分配, 压强原则, 人力资本, 接班人]
+source_type: org
+discipline: culture
 license: CC BY-NC 4.0
 ---
 

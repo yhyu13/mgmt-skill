@@ -3,6 +3,8 @@ name: amazon-day1
 org: Amazon
 category: 文化
 tags: [Day 1, 第一天, 客户痴迷, 长期思维, 反Day 2, 贝索斯]
+source_type: org
+discipline: culture
 license: CC BY-NC 4.0
 ---
 

@@ -1,5 +1,7 @@
 ---
 name: netflix-informed-captain
+source_type: org
+discipline: management
 org: Netflix
 category: 管理
 tags: [知情船长, Informed Captain, Farming for Dissent, Disagree then Commit, 决策速度]

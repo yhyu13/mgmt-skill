@@ -2,6 +2,8 @@
 name: tesla-cross-domain
 org: Tesla
 category: 创新
+source_type: org
+discipline: innovation
 tags: [跨领域迁移, 技术复用, SpaceX到Tesla, 软件定义, 物理统领]
 license: CC BY-NC 4.0
 ---

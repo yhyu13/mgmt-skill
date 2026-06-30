@@ -1,5 +1,7 @@
 ---
 name: apple-ecosystem
+source_type: org
+discipline: strategy
 org: Apple
 category: 战略
 tags: [生态闭环, 硬件软件服务, 转换成本, 自研芯片, 用户锁定]

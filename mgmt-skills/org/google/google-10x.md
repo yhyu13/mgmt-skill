@@ -1,5 +1,7 @@
 ---
 name: google-10x
+source_type: org
+discipline: innovation
 org: Google
 category: 创新
 tags: [10x思维, 登月思维, Moonshot, 范式转换, Astro Teller]

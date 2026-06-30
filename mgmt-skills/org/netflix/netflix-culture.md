@@ -1,5 +1,7 @@
 ---
 name: netflix-culture
+source_type: org
+discipline: culture
 org: Netflix
 category: 文化
 tags: [自由与责任, 文化甲板, F&R飞轮, 价值观, 信任驱动]

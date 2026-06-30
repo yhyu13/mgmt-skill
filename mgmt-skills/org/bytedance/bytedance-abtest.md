@@ -3,6 +3,8 @@ name: bytedance-abtest
 org: 字节跳动
 category: 产品
 tags: [A/B测试, 数据驱动, 用户收益, 操作成本, 反抽象, 自动化决策, 数据飞轮, 小团队强中台, Hackathon]
+source_type: org
+discipline: product
 license: CC BY-NC 4.0
 ---
 

@@ -2,6 +2,8 @@
 name: tesla-hardcore
 org: Tesla
 category: 文化
+source_type: org
+discipline: culture
 tags: [硬核文化, 极致紧迫, 睡工厂, 100小时工作, 不妥协]
 license: CC BY-NC 4.0
 ---

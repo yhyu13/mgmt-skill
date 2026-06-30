@@ -3,6 +3,8 @@ name: toyota-vsm
 org: 丰田
 category: 供应链
 tags: [丰田, 价值流图, VSM, Value Stream Mapping, 流程分析, 增值, 非增值, 浪费识别]
+source_type: org
+discipline: supply-chain
 license: CC BY-NC 4.0
 ---
 

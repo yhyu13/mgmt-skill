@@ -2,6 +2,8 @@
 name: tesla-first-principles
 org: Tesla
 category: 思维
+source_type: org
+discipline: management
 tags: [第一性原理, 白痴指数, 魔法棒数字, 物理驱动, 拆解到本质]
 license: CC BY-NC 4.0
 ---

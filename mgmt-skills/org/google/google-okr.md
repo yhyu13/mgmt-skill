@@ -1,5 +1,7 @@
 ---
 name: google-okr
+source_type: org
+discipline: strategy
 org: Google
 category: 战略
 tags: [OKR, 目标管理, 季度周期, 0.7分理想, 透明公开, 自下而上]

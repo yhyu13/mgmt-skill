@@ -1,5 +1,7 @@
 ---
 name: apple-supply-chain
+source_type: org
+discipline: management
 org: Apple
 category: 运营
 tags: [供应链, 极致管控, 自研芯片, 库克革命, 垂直整合]

@@ -3,6 +3,8 @@ name: amazon-six-page
 org: Amazon
 category: 决策
 tags: [6页纸, 叙述体备忘录, Narrative Memo, 禁止PPT, 深度思考]
+source_type: org
+discipline: management
 license: CC BY-NC 4.0
 ---
 

@@ -1,5 +1,7 @@
 ---
 name: google-tgif
+source_type: org
+discipline: collaboration
 org: Google
 category: 沟通
 tags: [TGIF, Default Open, 全员透明, 每周问答, 坏消息先行]

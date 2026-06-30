@@ -1,5 +1,7 @@
 ---
 name: alibaba-values
+source_type: org
+discipline: culture
 org: 阿里巴巴
 category: 文化
 tags: [六脉神剑, 价值观考核, 新六脉神剑, 九阳真经, 文化驱动]

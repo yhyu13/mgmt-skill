@@ -3,6 +3,8 @@ name: toyota-people
 org: 丰田
 category: 人力
 tags: [丰田, 造物先造人, 现地现物, OJT, 多能工, 工作轮换, 人才发展, Genchi Genbutsu]
+source_type: org
+discipline: hr
 license: CC BY-NC 4.0
 ---
 

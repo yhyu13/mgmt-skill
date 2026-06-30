@@ -3,6 +3,8 @@ name: amazon-single-threaded
 org: Amazon
 category: 组织
 tags: [单线程领导, Single-Threaded Leadership, 独立团队, 100%专职, 消除依赖]
+source_type: org
+discipline: org-design
 license: CC BY-NC 4.0
 ---
 

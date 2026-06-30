@@ -3,6 +3,8 @@ name: bytedance-cnc
 org: 字节跳动
 category: 文化
 tags: [管理哲学, 分布式决策, 信息透明, 组织设计, 去控制化]
+source_type: org
+discipline: culture
 license: CC BY-NC 4.0
 ---
 

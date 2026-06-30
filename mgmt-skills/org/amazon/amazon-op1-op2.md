@@ -3,6 +3,8 @@ name: amazon-op1-op2
 org: Amazon
 category: 战略
 tags: [OP1, OP2, 年度计划, ST目标, 薪酬绑定长期, 自下而上]
+source_type: org
+discipline: strategy
 license: CC BY-NC 4.0
 ---
 

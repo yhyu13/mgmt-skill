@@ -1,5 +1,7 @@
 ---
 name: apple-functional-org
+source_type: org
+discipline: org-design
 org: Apple
 category: 组织
 tags: [职能型组织, 专家领导专家, 单一P&L, 无事业部总经理, 功能专长]

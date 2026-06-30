@@ -3,6 +3,8 @@ name: huawei-dste
 org: 华为
 category: 战略
 tags: [DSTE, 战略管理, BLM, BEM, SP, BP, IBP, 战略解码, 经营分析会, 五看三定]
+source_type: org
+discipline: strategy
 license: CC BY-NC 4.0
 ---
 

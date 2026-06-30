@@ -2,6 +2,8 @@
 name: pdl-freedom-love
 org: 胖东来
 category: 文化
+source_type: org
+discipline: culture
 tags: [自由与爱, 善意驱动, 于东来, 用真品换真心, 成就生命]
 license: CC BY-NC 4.0
 ---

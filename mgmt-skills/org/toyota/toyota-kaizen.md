@@ -3,6 +3,8 @@ name: toyota-kaizen
 org: 丰田
 category: 文化
 tags: [丰田, 持续改善, Kaizen, 全员参与, 渐进式改善, 建议制度, 分形迭代]
+source_type: org
+discipline: culture
 license: CC BY-NC 4.0
 ---
 

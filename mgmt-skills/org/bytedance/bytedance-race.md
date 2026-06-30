@@ -3,6 +3,8 @@ name: bytedance-race
 org: 字节跳动
 category: 创新
 tags: [内部赛马, 动态韧性, 反熵增, 并行竞争, 人才流动, 试错周期, 蜂窝中台, 创业单元, 邓巴数]
+source_type: org
+discipline: innovation
 license: CC BY-NC 4.0
 ---
 

@@ -2,6 +2,8 @@
 name: pdl-customer-service
 org: 胖东来
 category: 服务
+source_type: org
+discipline: service
 tags: [极致服务, 无理由退换, 峰终定律, 1000项标准, 五感营销]
 license: CC BY-NC 4.0
 ---

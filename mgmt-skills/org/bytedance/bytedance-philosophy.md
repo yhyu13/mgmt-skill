@@ -3,6 +3,8 @@ name: bytedance-philosophy
 org: 字节跳动
 category: 文化
 tags: [务实浪漫, 延迟满足, 战略哲学, 竞争观, 人才观, 产品观, 反抽象]
+source_type: org
+discipline: culture
 license: CC BY-NC 4.0
 ---
 

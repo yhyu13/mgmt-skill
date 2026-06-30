@@ -1,5 +1,7 @@
 ---
 name: alibaba-three-axes
+source_type: org
+discipline: management
 org: 阿里巴巴
 category: 管理
 tags: [三板斧, 九板斧, 干部培养, 腿部腰部头部, 聚焦落地]

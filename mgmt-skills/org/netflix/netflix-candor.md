@@ -1,5 +1,7 @@
 ---
 name: netflix-candor
+source_type: org
+discipline: culture
 org: Netflix
 category: 文化
 tags: [极致坦诚, 4A反馈, 360度反馈, Start-Stop-Continue, Sunshining]

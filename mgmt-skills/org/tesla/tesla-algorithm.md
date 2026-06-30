@@ -2,6 +2,8 @@
 name: tesla-algorithm
 org: Tesla
 category: 执行
+source_type: org
+discipline: management
 tags: [五步工作法, The Algorithm, 质疑需求, 删除简化, 先手动再自动化]
 license: CC BY-NC 4.0
 ---

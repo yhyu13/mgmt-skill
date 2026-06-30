@@ -1,5 +1,7 @@
 ---
 name: netflix-minimal-rules
+source_type: org
+discipline: org-design
 org: Netflix
 category: 制度
 tags: [极简规则, 无假期政策, 无费用审批, 无决策审批, 最小化流程]

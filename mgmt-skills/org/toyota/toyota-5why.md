@@ -3,6 +3,8 @@ name: toyota-5why
 org: 丰田
 category: 研发
 tags: [丰田, 5Why, 根因分析, 问题解决, 大野耐一, 连问为什么]
+source_type: org
+discipline: rd
 license: CC BY-NC 4.0
 ---
 

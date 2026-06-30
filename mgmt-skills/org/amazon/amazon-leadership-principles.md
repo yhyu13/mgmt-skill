@@ -3,6 +3,8 @@ name: amazon-leadership-principles
 org: Amazon
 category: 文化
 tags: [领导力原则, Leadership Principles, 行为标准, 机制驱动, 客户至上]
+source_type: org
+discipline: culture
 license: CC BY-NC 4.0
 ---
 

@@ -1,5 +1,7 @@
 ---
 name: apple-simplicity
+source_type: org
+discipline: culture
 org: Apple
 category: 文化
 tags: [极简哲学, 做减法, 对一千个说不, 简单比复杂更难, 设计驱动]

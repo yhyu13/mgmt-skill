@@ -3,6 +3,8 @@ name: bytedance-feishu
 org: 字节跳动
 category: 协作
 tags: [飞书, 组织操作系统, 信息循环, BCG双循环, 善意能人, 自由信息, Context not Control]
+source_type: org
+discipline: collaboration
 license: CC BY-NC 4.0
 ---
 

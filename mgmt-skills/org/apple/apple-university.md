@@ -1,5 +1,7 @@
 ---
 name: apple-university
+source_type: org
+discipline: culture
 org: Apple
 category: 学习
 tags: [Apple University, 案例教学, 乔布斯遗产, 决策思维, 内部培训]

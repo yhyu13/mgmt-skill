@@ -3,6 +3,8 @@ name: huawei-entropy
 org: 华为
 category: 文化
 tags: [熵减, 耗散结构, 自我批判, 灰度哲学, 组织活力, 任正非]
+source_type: org
+discipline: culture
 license: CC BY-NC 4.0
 ---
 

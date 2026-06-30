@@ -1,5 +1,7 @@
 ---
 name: apple-elite-team
+source_type: org
+discipline: hr
 org: Apple
 category: 人力
 tags: [小团队精英制, A级人才, 保密文化, 梦幻团队, 小团队做大事]

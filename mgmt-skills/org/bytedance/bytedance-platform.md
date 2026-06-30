@@ -3,6 +3,8 @@ name: bytedance-platform
 org: 字节跳动
 category: 战略
 tags: [组织架构, 蜂窝中台, 分布式创业网络, 模块化, 邓巴数, 组织演进]
+source_type: org
+discipline: strategy
 license: CC BY-NC 4.0
 ---
 

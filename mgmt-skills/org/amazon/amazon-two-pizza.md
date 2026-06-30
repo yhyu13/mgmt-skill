@@ -3,6 +3,8 @@ name: amazon-two-pizza
 org: Amazon
 category: 组织
 tags: [两个披萨团队, Two-Pizza Team, 小团队, 敏捷, 约束创新]
+source_type: org
+discipline: org-design
 license: CC BY-NC 4.0
 ---
 

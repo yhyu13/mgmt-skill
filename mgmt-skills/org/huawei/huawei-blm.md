@@ -3,6 +3,8 @@ name: huawei-blm
 org: 华为
 category: 战略
 tags: [BLM, 战略规划, DSTE, 五看三定, IBM, 业务领先模型]
+source_type: org
+discipline: strategy
 license: CC BY-NC 4.0
 ---
 

@@ -2,6 +2,8 @@
 name: pdl-restraint
 org: 胖东来
 category: 战略
+source_type: org
+discipline: strategy
 tags: [反扩张, 不上市, 零负债, 克制增长, 深耕两城]
 license: CC BY-NC 4.0
 ---

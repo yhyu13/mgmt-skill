@@ -3,6 +3,8 @@ name: amazon-working-backwards
 org: Amazon
 category: 研发
 tags: [逆向工作法, Working Backwards, PR/FAQ, 新闻稿先行, 客户体验倒推]
+source_type: org
+discipline: rd
 license: CC BY-NC 4.0
 ---
 

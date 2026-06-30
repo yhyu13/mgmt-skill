@@ -3,6 +3,8 @@ name: toyota-way
 org: 丰田
 category: 文化
 tags: [丰田, Toyota Way, 14原则, 长期理念, 精益, 持续改善, 现地现物]
+source_type: org
+discipline: culture
 license: CC BY-NC 4.0
 ---
 

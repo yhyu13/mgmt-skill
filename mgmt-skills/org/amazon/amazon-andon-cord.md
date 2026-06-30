@@ -3,6 +3,8 @@ name: amazon-andon-cord
 org: Amazon
 category: 运营
 tags: [安灯绳, Andon Cord, 一线授权, 即时下架, 缺陷拦截]
+source_type: org
+discipline: management
 license: CC BY-NC 4.0
 ---
 

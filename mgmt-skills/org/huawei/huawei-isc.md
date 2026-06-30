@@ -3,6 +3,8 @@ name: huawei-isc
 org: 华为
 category: 供应链
 tags: [ISC, 集成供应链, SCOR, S&OP, DFSC, 供应链控制塔, 数字供应网络, ISC+]
+source_type: org
+discipline: supply-chain
 license: CC BY-NC 4.0
 ---
 

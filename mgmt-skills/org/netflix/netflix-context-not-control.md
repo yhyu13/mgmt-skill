@@ -1,5 +1,7 @@
 ---
 name: netflix-context-not-control
+source_type: org
+discipline: management
 org: Netflix
 category: 管理
 tags: [情景管理, Context not Control, 取消管控, 自主决策, 信息透明]

@@ -3,6 +3,8 @@ name: huawei-bem
 org: 华为
 category: 战略
 tags: [BEM, 战略解码, DSTE, CSF, KPI, PBC, 六西格玛, 战略执行]
+source_type: org
+discipline: strategy
 license: CC BY-NC 4.0
 ---
 

@@ -3,6 +3,8 @@ name: toyota-andon
 org: 丰田
 category: 供应链
 tags: [丰田, 安灯, Andon, 目视化管理, 异常即停, 停线, 质量管理]
+source_type: org
+discipline: supply-chain
 license: CC BY-NC 4.0
 ---
 

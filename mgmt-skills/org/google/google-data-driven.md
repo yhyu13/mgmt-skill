@@ -1,5 +1,7 @@
 ---
 name: google-data-driven
+source_type: org
+discipline: culture
 org: Google
 category: 文化
 tags: [数据驱动, 反HiPPO, People Ops, 实验精神, 科学化管理]

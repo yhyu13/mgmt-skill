@@ -3,6 +3,8 @@ name: bytedance-okr
 org: 字节跳动
 category: 人力
 tags: [OKR, 目标管理, 透明, 双月迭代, 360度评估, 沟通工具]
+source_type: org
+discipline: hr
 license: CC BY-NC 4.0
 ---
 

@@ -2,6 +2,8 @@
 name: pdl-transparency
 org: 胖东来
 category: 经营
+source_type: org
+discipline: management
 tags: [透明经营, 公开进价, 毛利率公开, 品质溯源, 信息对称]
 license: CC BY-NC 4.0
 ---

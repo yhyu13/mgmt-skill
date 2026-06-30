@@ -1,5 +1,7 @@
 ---
 name: alibaba-middle-office
+source_type: org
+discipline: org-design
 org: 阿里巴巴
 category: 组织
 tags: [中台战略, 大中台小前台, 共享能力, 数据中台, 技术中台]

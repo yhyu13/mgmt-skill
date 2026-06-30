@@ -2,6 +2,8 @@
 name: tesla-fail-fast
 org: Tesla
 category: 研发
+source_type: org
+discipline: rd
 tags: [快速试错, Fail Fast, 猎鹰四连试, 星舰两周迭代, 容错迭代]
 license: CC BY-NC 4.0
 ---

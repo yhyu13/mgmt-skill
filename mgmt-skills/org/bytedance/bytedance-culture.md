@@ -3,6 +3,8 @@ name: bytedance-culture
 org: 字节跳动
 category: 文化
 tags: [字节范, 追求极致, 务实敢为, 开放谦逊, 坦诚清晰, 始终创业, 务实浪漫, 动态韧性, ego小格局大]
+source_type: org
+discipline: culture
 license: CC BY-NC 4.0
 ---
 

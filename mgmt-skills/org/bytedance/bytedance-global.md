@@ -3,6 +3,8 @@ name: bytedance-global
 org: 字节跳动
 category: 战略
 tags: [国际化, 本地化, 双壳架构, TikTok, 收购整合, 合规防火墙]
+source_type: org
+discipline: strategy
 license: CC BY-NC 4.0
 ---
 

@@ -2,6 +2,8 @@
 name: pdl-self-governance
 org: 胖东来
 category: 治理
+source_type: org
+discipline: org-design
 tags: [员工自治, 轮值制, 决策委员会, 竞聘上岗, 满意度罢免]
 license: CC BY-NC 4.0
 ---

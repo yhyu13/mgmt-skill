@@ -3,6 +3,8 @@ name: toyota-tps
 org: 丰田
 category: 供应链
 tags: [丰田, TPS, 精益生产, JIT, 自働化, 七大浪费, 看板, 大野耐一]
+source_type: org
+discipline: supply-chain
 license: CC BY-NC 4.0
 ---
 

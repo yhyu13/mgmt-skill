@@ -1,5 +1,7 @@
 ---
 name: apple-dri
+source_type: org
+discipline: management
 org: Apple
 category: 管理
 tags: [DRI, Directly Responsible Individual, 一人负责, 问责制, 避免集体负责]

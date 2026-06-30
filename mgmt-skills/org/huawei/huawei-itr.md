@@ -3,6 +3,8 @@ name: huawei-itr
 org: 华为
 category: 服务
 tags: [ITR, 客户服务, 问题管理, SLA, 三线支持, RCA, 问题资产化, 服务即销售]
+source_type: org
+discipline: service
 license: CC BY-NC 4.0
 ---
 

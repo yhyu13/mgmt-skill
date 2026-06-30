@@ -3,6 +3,8 @@ name: toyota-a3
 org: 丰田
 category: 研发
 tags: [丰田, A3思维, 一页纸, 问题解决, PDCA, 根因分析, 报告]
+source_type: org
+discipline: rd
 license: CC BY-NC 4.0
 ---
 

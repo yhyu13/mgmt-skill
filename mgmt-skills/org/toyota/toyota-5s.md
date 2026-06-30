@@ -3,6 +3,8 @@ name: toyota-5s
 org: 丰田
 category: 供应链
 tags: [丰田, 5S, 现场管理, 整理, 整顿, 清扫, 清洁, 素养]
+source_type: org
+discipline: supply-chain
 license: CC BY-NC 4.0
 ---
 

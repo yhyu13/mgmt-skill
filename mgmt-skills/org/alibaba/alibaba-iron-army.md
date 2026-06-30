@@ -1,5 +1,7 @@
 ---
 name: alibaba-iron-army
+source_type: org
+discipline: management
 org: 阿里巴巴
 category: 执行
 tags: [阿里铁军, 中供铁军, 超强执行力, 狼性销售, 师徒制]
