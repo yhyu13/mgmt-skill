@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>经营分析会系统 | 华为管理工具箱</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a0f;--surface:#12121a;--surface2:#1a1a26;--border:#2a2a3a;--text:#e8e8f0;--text2:#8888a0;--accent:#e63946;--accent2:#ff6b6b;--success:#2ecc71;--warn:#f39c12;--blue:#3498db;--purple:#9b59b6;--orange:#e67e22}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.header{background:linear-gradient(135deg,#0a0a0f 0%,#1a100a 100%);border-bottom:1px solid var(--border);padding:20px 32px;display:flex;align-items:center;gap:16px;position:sticky;top:0;z-index:100}
+.header .logo{width:36px;height:36px;background:var(--orange);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:16px;color:#fff}
+.header h1{font-size:20px;font-weight:700}
+.header .subtitle{font-size:13px;color:var(--text2);margin-left:auto}
+.container{max-width:1200px;margin:0 auto;padding:24px 32px}
+.tabs{display:flex;gap:4px;margin-bottom:24px;background:var(--surface);border-radius:12px;padding:4px}
+.tab{flex:1;padding:12px;border:none;background:transparent;color:var(--text2);font-size:13px;font-weight:600;border-radius:8px;cursor:pointer;transition:all .2s;text-align:center}
+.tab.active{background:var(--orange);color:#fff}
+.tab .num{display:block;font-size:18px;font-weight:800;margin-bottom:2px}
+.panel{display:none}.panel.active{display:block}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:16px}
+.card h3{font-size:15px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.card h3 .icon{width:26px;height:26px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:13px}
+.input-group{margin-bottom:14px}
+.input-group label{display:block;font-size:12px;font-weight:600;color:var(--text2);margin-bottom:4px;text-transform:uppercase;letter-spacing:.3px}
+.input-group input,.input-group textarea,.input-group select{width:100%;padding:9px 12px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;font-family:inherit;resize:vertical;transition:border-color .2s}
+.input-group input:focus,.input-group textarea:focus{outline:none;border-color:var(--orange)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+.btn{padding:9px 20px;border:none;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn-primary{background:var(--orange);color:#fff}.btn-primary:hover{opacity:.9}
+.btn-secondary{background:var(--surface2);color:var(--text);border:1px solid var(--border)}
+.btn-danger{background:var(--accent);color:#fff}
+.btn-row{display:flex;gap:10px;margin-top:20px;justify-content:flex-end}
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+.kpi-box{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:16px;text-align:center}
+.kpi-box .value{font-size:28px;font-weight:800;margin:4px 0}
+.kpi-box .label{font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:.3px}
+.kpi-box .trend{font-size:12px;font-weight:700;margin-top:4px}
+.trend-up{color:var(--success)}.trend-down{color:var(--accent)}.trend-flat{color:var(--text2)}
+.gap-card{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:10px}
+.gap-card .gap-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.gap-card .gap-name{font-weight:700;font-size:14px}
+.gap-card .gap-type{padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700}
+.gap-target{background:rgba(230,57,70,.15);color:var(--accent)}
+.gap-exec{background:rgba(52,152,219,.15);color:var(--blue)}
+.gap-forecast{background:rgba(243,156,18,.15);color:var(--warn)}
+.gap-card .gap-detail{font-size:13px;color:var(--text2);line-height:1.6}
+.list-section{margin-bottom:20px}
+.list-section h4{font-size:13px;font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.list-item{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--surface2);border-radius:6px;margin-bottom:4px;font-size:13px}
+.list-item .dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.dot-green{background:var(--success)}.dot-yellow{background:var(--warn)}.dot-red{background:var(--accent)}
+.task-order{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:10px;border-left:4px solid var(--accent)}
+.task-order .task-id{font-size:11px;color:var(--text2);font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.task-order .task-title{font-size:14px;font-weight:700;margin:4px 0}
+.task-order .task-meta{display:flex;gap:16px;font-size:12px;color:var(--text2);margin-top:6px}
+.task-order .task-meta span{display:flex;align-items:center;gap:4px}
+.task-order .status-badge{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700}
+.status-pending{background:rgba(243,156,18,.15);color:var(--warn)}
+.status-progress{background:rgba(52,152,219,.15);color:var(--blue)}
+.status-done{background:rgba(46,204,113,.15);color:var(--success)}
+.meeting-agenda{counter-reset:agenda}
+.agenda-item{counter-increment:agenda;display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--border)}
+.agenda-item::before{content:counter(agenda);display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:var(--surface2);border-radius:50%;font-size:13px;font-weight:800;flex-shrink:0}
+.agenda-item .agenda-content{flex:1}
+.agenda-item .agenda-title{font-weight:700;font-size:14px;margin-bottom:2px}
+.agenda-item .agenda-desc{font-size:12px;color:var(--text2)}
+.agenda-item .agenda-time{font-size:12px;color:var(--orange);font-weight:700;white-space:nowrap}
+.rule-card{background:var(--surface2);border-radius:8px;padding:14px;margin-bottom:8px;display:flex;gap:12px;align-items:flex-start}
+.rule-card .rule-icon{font-size:20px;flex-shrink:0}
+.rule-card .rule-text{font-size:13px;line-height:1.6}
+.rule-card .rule-text strong{color:var(--orange)}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">会</div>
+  <h1>经营分析会系统</h1>
+  <span class="subtitle">华为管理工具箱 · 一报一会</span>
+</div>
+
+<div class="container">
+  <div class="tabs" id="tabs">
+    <button class="tab active" onclick="goTab(0)"><span class="num">01</span>经营报告</button>
+    <button class="tab" onclick="goTab(1)"><span class="num">02</span>会议议程</button>
+    <button class="tab" onclick="goTab(2)"><span class="num">03</span>任务令</button>
+    <button class="tab" onclick="goTab(3)"><span class="num">04</span>滚动预测</button>
+  </div>
+
+  <!-- Tab 1: 经营报告 -->
+  <div class="panel active" id="panel0">
+    <div class="card">
+      <h3><span class="icon" style="background:var(--orange)">📊</span> 经营分析报告</h3>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:16px">华为"一报一会"机制的核心：经营分析报告不是表功报告，而是暴露问题、风险和机会的作战地图。</p>
+      <div class="row" style="margin-bottom:16px">
+        <div class="input-group"><label>报告周期</label><select><option>2026年6月</option><option>2026年Q2</option><option>2026年H1</option></select></div>
+        <div class="input-group"><label>报告人</label><input type="text" placeholder="经营分析负责人"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3><span class="icon" style="background:var(--accent)">📈</span> 核心经营指标</h3>
+      <div class="kpi-row">
+        <div class="kpi-box">
+          <div class="label">营收</div>
+          <div class="value" style="color:var(--text)">3,280<span style="font-size:14px">万</span></div>
+          <div class="trend trend-up">↑ 12% vs 上月</div>
+        </div>
+        <div class="kpi-box">
+          <div class="label">回款</div>
+          <div class="value" style="color:var(--success)">2,950<span style="font-size:14px">万</span></div>
+          <div class="trend trend-down">↓ 5% vs 目标</div>
+        </div>
+        <div class="kpi-box">
+          <div class="label">利润率</div>
+          <div class="value" style="color:var(--warn)">18.5<span style="font-size:14px">%</span></div>
+          <div class="trend trend-flat">→ 持平</div>
+        </div>
+        <div class="kpi-box">
+          <div class="label">客户满意度</div>
+          <div class="value" style="color:var(--blue)">NPS 58</div>
+          <div class="trend trend-up">↑ 3pts</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3><span class="icon" style="background:var(--accent)">🔍</span> 3个GAP（差距分析）</h3>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">华为滚动预测的核心工具：识别三类差距，驱动行动。</p>
+
+      <div class="gap-card">
+        <div class="gap-header">
+          <span class="gap-name">GAP1：目标差距</span>
+          <span class="gap-type gap-target">目标 vs 实际</span>
+        </div>
+        <div class="gap-detail">
+          <div class="input-group" style="margin-bottom:8px"><label>差距描述</label><textarea rows="2" placeholder="例：本月营收目标3500万，实际3280万，差距220万。主要因为华东区2个大客户签约延迟"></textarea></div>
+          <div class="input-group" style="margin-bottom:0"><label>根因分析</label><input type="text" placeholder="例：产品交付周期从2周延长到3周，客户等待超预期"></div>
+        </div>
+      </div>
+
+      <div class="gap-card">
+        <div class="gap-header">
+          <span class="gap-name">GAP2：执行差距</span>
+          <span class="gap-type gap-exec">计划 vs 执行</span>
+        </div>
+        <div class="gap-detail">
+          <div class="input-group" style="margin-bottom:8px"><label>差距描述</label><textarea rows="2" placeholder="例：计划Q2完成3个渠道拓展，实际只完成1个。剩余2个渠道谈判卡在商务条款"></textarea></div>
+          <div class="input-group" style="margin-bottom:0"><label>根因分析</label><input type="text" placeholder="例：渠道团队人手不足，1人负责3个渠道并行推进"></div>
+        </div>
+      </div>
+
+      <div class="gap-card">
+        <div class="gap-header">
+          <span class="gap-name">GAP3：预测变动差距</span>
+          <span class="gap-type gap-forecast">上期预测 vs 本期预测</span>
+        </div>
+        <div class="gap-detail">
+          <div class="input-group" style="margin-bottom:8px"><label>差距描述</label><textarea rows="2" placeholder="例：上月预测Q3营收4000万，本月下调至3600万。原因：大客户A预算削减30%"></textarea></div>
+          <div class="input-group" style="margin-bottom:0"><label>根因分析</label><input type="text" placeholder="例：客户行业受政策影响，整体预算收缩"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3><span class="icon" style="background:var(--warn)">📋</span> 3个List（清单管理）</h3>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:12px">将经营状态分为三类清单，一目了然。</p>
+
+      <div class="list-section">
+        <h4><span style="color:var(--success)">●</span> 确定清单（已确认的好消息/已完成项）</h4>
+        <div id="certainList">
+          <div class="list-item"><span class="dot dot-green"></span>华南区3个新客户签约完成</div>
+          <div class="list-item"><span class="dot dot-green"></span>产品V2.0按时发布，0 P0缺陷</div>
+        </div>
+        <div class="input-group" style="margin-top:8px"><input type="text" id="certainInput" placeholder="添加确定项..." onkeydown="if(event.key==='Enter')addListItem('certain')"></div>
+      </div>
+
+      <div class="list-section">
+        <h4><span style="color:var(--warn)">●</span> 风险清单（可能出问题的事项）</h4>
+        <div id="riskList">
+          <div class="list-item"><span class="dot dot-yellow"></span>华东区2个大客户签约延迟，可能影响Q3回款</div>
+          <div class="list-item"><span class="dot dot-yellow"></span>核心研发1人提出离职，知识传承风险</div>
+        </div>
+        <div class="input-group" style="margin-top:8px"><input type="text" id="riskInput" placeholder="添加风险项..." onkeydown="if(event.key==='Enter')addListItem('risk')"></div>
+      </div>
+
+      <div class="list-section">
+        <h4><span style="color:var(--accent)">●</span> 机会清单（新出现的机会点）</h4>
+        <div id="oppList">
+          <div class="list-item"><span class="dot dot-red"></span>竞品X提价30%，客户流失信号明显，可主动出击</div>
+          <div class="list-item"><span class="dot dot-red"></span>行业政策利好，中小企业数字化转型补贴即将出台</div>
+        </div>
+        <div class="input-group" style="margin-top:8px"><input type="text" id="oppInput" placeholder="添加机会项..." onkeydown="if(event.key==='Enter')addListItem('opp')"></div>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-primary" onclick="goTab(1)">下一步：会议议程 →</button>
+    </div>
+  </div>
+
+  <!-- Tab 2: 会议议程 -->
+  <div class="panel" id="panel1">
+    <div class="card">
+      <h3><span class="icon" style="background:var(--orange)">🗓️</span> 经营分析会议程</h3>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:16px">华为经营分析会是<strong style="color:var(--orange)">作战会议</strong>，不是汇报会、诉苦会。聚焦目标、问题、机会，产出任务令。</p>
+    </div>
+
+    <div class="card">
+      <h3><span class="icon" style="background:var(--accent)">⛔</span> 会议铁律</h3>
+      <div class="rule-card">
+        <div class="rule-icon">🚫</div>
+        <div class="rule-text"><strong>不许表功</strong>：经营分析会不是述职会，不说"我们做了什么"，只说"差距在哪、怎么补"</div>
+      </div>
+      <div class="rule-card">
+        <div class="rule-icon">🚫</div>
+        <div class="rule-text"><strong>不许诉苦</strong>：不抱怨资源不够、市场不好。只说"我需要什么支持，能换来什么结果"</div>
+      </div>
+      <div class="rule-card">
+        <div class="rule-icon">🚫</div>
+        <div class="rule-text"><strong>不许空谈</strong>：每个问题必须对应一个行动方案，没有方案的问题不带上会</div>
+      </div>
+      <div class="rule-card">
+        <div class="rule-icon">✅</div>
+        <div class="rule-text"><strong>必须产出任务令</strong>：会议结束必须有明确的任务令——目标、责任人、时限</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3><span class="icon" style="background:var(--orange)">📋</span> 标准议程模板</h3>
+      <div class="meeting-agenda">
+        <div class="agenda-item">
+          <div class="agenda-content">
+            <div class="agenda-title">经营结果回顾</div>
+            <div class="agenda-desc">核心KPI达成情况，3个GAP差距分析，红绿灯状态</div>
+          </div>
+          <div class="agenda-time">15min</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-content">
+            <div class="agenda-title">问题深挖</div>
+            <div class="agenda-desc">针对GAP1/GAP2，5Why根因分析，不绕过任何异常</div>
+          </div>
+          <div class="agenda-time">30min</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-content">
+            <div class="agenda-title">风险与机会</div>
+            <div class="agenda-desc">3个List过一遍：风险怎么防？机会怎么抓？</div>
+          </div>
+          <div class="agenda-time">20min</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-content">
+            <div class="agenda-title">行动方案与任务令</div>
+            <div class="agenda-desc">每个问题对应行动方案，产出任务令（目标+责任人+时限）</div>
+          </div>
+          <div class="agenda-time">25min</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-content">
+            <div class="agenda-title">滚动预测更新</div>
+            <div class="agenda-desc">基于本次分析，更新下期预测，标注变动原因</div>
+          </div>
+          <div class="agenda-time">10min</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3><span class="icon" style="background:var(--blue)">⚙️</span> 会议配置</h3>
+      <div class="row3">
+        <div class="input-group"><label>会议频率</label><select><option>月度</option><option>双周</option><option>周度</option></select></div>
+        <div class="input-group"><label>会议时长</label><select><option>90分钟</option><option>120分钟</option><option>60分钟</option></select></div>
+        <div class="input-group"><label>参会人</label><input type="text" placeholder="核心管理层"></div>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-secondary" onclick="goTab(0)">← 上一步</button>
+      <button class="btn btn-primary" onclick="goTab(2)">下一步：任务令 →</button>
+    </div>
+  </div>
+
+  <!-- Tab 3: 任务令 -->
+  <div class="panel" id="panel2">
+    <div class="card">
+      <h3><span class="icon" style="background:var(--accent)">🎯</span> 任务令</h3>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:16px">经营分析会的核心产出。每个任务令必须包含：目标、责任人、时限。会后追踪闭环，不做"开完就散"。</p>
+    </div>
+
+    <div id="taskOrders">
+      <div class="task-order">
+        <div class="task-id">任务令 #2026-06-01</div>
+        <div class="task-title">华东区2个延迟客户签约推进</div>
+        <div class="task-meta">
+          <span>👤 责任人：张三</span>
+          <span>⏰ 时限：2026-07-15</span>
+          <span>📊 关联GAP：GAP1目标差距</span>
+          <span class="status-badge status-progress">进行中</span>
+        </div>
+        <div style="margin-top:8px">
+          <div class="input-group" style="margin-bottom:0"><label>目标</label><input type="text" value="完成2个客户签约，回款≥800万"></div>
+        </div>
+      </div>
+
+      <div class="task-order">
+        <div class="task-id">任务令 #2026-06-02</div>
+        <div class="task-title">渠道团队扩编方案</div>
+        <div class="task-meta">
+          <span>👤 责任人：李四</span>
+          <span>⏰ 时限：2026-07-01</span>
+          <span>📊 关联GAP：GAP2执行差距</span>
+          <span class="status-badge status-pending">待开始</span>
+        </div>
+        <div style="margin-top:8px">
+          <div class="input-group" style="margin-bottom:0"><label>目标</label><input type="text" value="完成2名渠道经理招聘，Q3前到岗"></div>
+        </div>
+      </div>
+
+      <div class="task-order">
+        <div class="task-id">任务令 #2026-06-03</div>
+        <div class="task-title">竞品提价客户主动出击方案</div>
+        <div class="task-meta">
+          <span>👤 责任人：王五</span>
+          <span>⏰ 时限：2026-06-30</span>
+          <span>📊 关联：机会清单</span>
+          <span class="status-badge status-progress">进行中</span>
+        </div>
+        <div style="margin-top:8px">
+          <div class="input-group" style="margin-bottom:0"><label>目标</label><input type="text" value="接触竞品X流失客户≥10家，转化≥3家"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <h3><span class="icon" style="background:var(--blue)">➕</span> 新增任务令</h3>
+      <div class="row">
+        <div class="input-group"><label>任务标题</label><input type="text" id="taskTitle" placeholder="简明扼要描述任务"></div>
+        <div class="input-group"><label>责任人</label><input type="text" id="taskOwner" placeholder="唯一责任人"></div>
+      </div>
+      <div class="row3">
+        <div class="input-group"><label>目标（可量化）</label><input type="text" id="taskTarget" placeholder="例：完成3个客户签约"></div>
+        <div class="input-group"><label>完成时限</label><input type="date" id="taskDeadline"></div>
+        <div class="input-group"><label>关联GAP/机会</label><select id="taskLink"><option>GAP1 目标差距</option><option>GAP2 执行差距</option><option>GAP3 预测变动</option><option>风险清单</option><option>机会清单</option></select></div>
+      </div>
+      <button class="btn btn-primary" onclick="addTaskOrder()" style="margin-top:8px">发布任务令</button>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-secondary" onclick="goTab(1)">← 上一步</button>
+      <button class="btn btn-primary" onclick="goTab(3)">下一步：滚动预测 →</button>
+    </div>
+  </div>
+
+  <!-- Tab 4: 滚动预测 -->
+  <div class="panel" id="panel3">
+    <div class="card">
+      <h3><span class="icon" style="background:var(--purple)">🔮</span> 滚动预测</h3>
+      <p style="font-size:12px;color:var(--text2);margin-bottom:16px">华为滚动预测不是"猜数字"，而是基于3个GAP和3个List，动态调整预期，提前弥补差距、捕捉机会。</p>
+    </div>
+
+    <div class="card">
+      <h3><span class="icon" style="background:var(--orange)">📊</span> 预测对比</h3>
+      <table style="width:100%;border-collapse:collapse;font-size:13px">
+        <thead>
+          <tr style="border-bottom:1px solid var(--border)">
+            <th style="text-align:left;padding:10px;color:var(--text2);font-size:11px;text-transform:uppercase">指标</th>
+            <th style="text-align:center;padding:10px;color:var(--text2);font-size:11px">上月预测</th>
+            <th style="text-align:center;padding:10px;color:var(--text2);font-size:11px">本月实际</th>
+            <th style="text-align:center;padding:10px;color:var(--text2);font-size:11px">本月预测</th>
+            <th style="text-align:center;padding:10px;color:var(--text2);font-size:11px">变动</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px;font-weight:700">营收</td>
+            <td style="text-align:center;padding:10px">3,500万</td>
+            <td style="text-align:center;padding:10px">3,280万</td>
+            <td style="text-align:center;padding:10px"><input type="text" value="3,600万" style="width:80px;background:transparent;border:none;color:var(--text);text-align:center;font-size:13px"></td>
+            <td style="text-align:center;padding:10px;color:var(--success)">+100万</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px;font-weight:700">回款</td>
+            <td style="text-align:center;padding:10px">3,100万</td>
+            <td style="text-align:center;padding:10px">2,950万</td>
+            <td style="text-align:center;padding:10px"><input type="text" value="3,200万" style="width:80px;background:transparent;border:none;color:var(--text);text-align:center;font-size:13px"></td>
+            <td style="text-align:center;padding:10px;color:var(--accent)">+100万</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px;font-weight:700">利润率</td>
+            <td style="text-align:center;padding:10px">20%</td>
+            <td style="text-align:center;padding:10px">18.5%</td>
+            <td style="text-align:center;padding:10px"><input type="text" value="19%" style="width:80px;background:transparent;border:none;color:var(--text);text-align:center;font-size:13px"></td>
+            <td style="text-align:center;padding:10px;color:var(--warn)">-1%</td>
+          </tr>
+          <tr>
+            <td style="padding:10px;font-weight:700">新客户数</td>
+            <td style="text-align:center;padding:10px">15</td>
+            <td style="text-align:center;padding:10px">12</td>
+            <td style="text-align:center;padding:10px"><input type="text" value="18" style="width:80px;background:transparent;border:none;color:var(--text);text-align:center;font-size:13px"></td>
+            <td style="text-align:center;padding:10px;color:var(--success)">+3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h3><span class="icon" style="background:var(--warn)">📝</span> 预测变动说明</h3>
+      <div class="input-group"><label>上调因素</label><textarea rows="2" placeholder="例：竞品提价带来客户流入机会，预计Q3新客户增加3家"></textarea></div>
+      <div class="input-group"><label>下调因素</label><textarea rows="2" placeholder="例：大客户A预算削减30%，影响Q3回款约200万"></textarea></div>
+      <div class="input-group"><label>关键假设</label><textarea rows="2" placeholder="例：假设华东区2个延迟客户7月签约；假设竞品提价效应持续3个月"></textarea></div>
+    </div>
+
+    <div class="card">
+      <h3><span class="icon" style="background:var(--success)">✅</span> 下期行动重点</h3>
+      <div class="input-group"><label>必须打赢的仗</label><textarea rows="2" placeholder="例：1.华东区2个延迟客户签约 2.竞品提价客户主动出击 3.渠道团队扩编到位"></textarea></div>
+      <div class="input-group"><label>需要上级支持的事项</label><textarea rows="2" placeholder="例：1.渠道团队HC审批加速 2.华东区客户拜访需CEO出面"></textarea></div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-secondary" onclick="exportReport()">导出经营分析报告</button>
+      <button class="btn btn-secondary" onclick="goTab(0)">← 回到报告</button>
+      <button class="btn btn-primary" onclick="goTab(0)">完成</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let currentTab = 0;
+let taskCount = 3;
+
+function goTab(n) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('panel' + n).classList.add('active');
+  document.querySelectorAll('.tab')[n].classList.add('active');
+  currentTab = n;
+  window.scrollTo(0, 0);
+}
+
+function addListItem(type) {
+  const input = document.getElementById(type + 'Input');
+  if (!input.value.trim()) return;
+  const list = document.getElementById(type + 'List');
+  const dotClass = type === 'certain' ? 'dot-green' : type === 'risk' ? 'dot-yellow' : 'dot-red';
+  const item = document.createElement('div');
+  item.className = 'list-item';
+  item.innerHTML = `<span class="dot ${dotClass}"></span>${input.value}`;
+  list.appendChild(item);
+  input.value = '';
+}
+
+function addTaskOrder() {
+  const title = document.getElementById('taskTitle').value;
+  const owner = document.getElementById('taskOwner').value;
+  const target = document.getElementById('taskTarget').value;
+  const deadline = document.getElementById('taskDeadline').value;
+  const link = document.getElementById('taskLink').value;
+  if (!title || !owner) return;
+  taskCount++;
+  const container = document.getElementById('taskOrders');
+  const div = document.createElement('div');
+  div.className = 'task-order';
+  div.innerHTML = `
+    <div class="task-id">任务令 #2026-06-${String(taskCount).padStart(2,'0')}</div>
+    <div class="task-title">${title}</div>
+    <div class="task-meta">
+      <span>👤 责任人：${owner}</span>
+      <span>⏰ 时限：${deadline || '待定'}</span>
+      <span>📊 关联：${link}</span>
+      <span class="status-badge status-pending">待开始</span>
+    </div>
+    ${target ? `<div style="margin-top:8px"><div class="input-group" style="margin-bottom:0"><label>目标</label><input type="text" value="${target}"></div></div>` : ''}
+  `;
+  container.appendChild(div);
+  document.getElementById('taskTitle').value = '';
+  document.getElementById('taskOwner').value = '';
+  document.getElementById('taskTarget').value = '';
+  document.getElementById('taskDeadline').value = '';
+}
+
+function exportReport() {
+  let md = `# 经营分析报告\n\n`;
+  md += `## 核心经营指标\n- 营收：3,280万 ↑12%\n- 回款：2,950万 ↓5%\n- 利润率：18.5%\n- NPS：58\n\n`;
+  md += `## 3个GAP\n### GAP1 目标差距\n（见报告填写内容）\n\n### GAP2 执行差距\n（见报告填写内容）\n\n### GAP3 预测变动差距\n（见报告填写内容）\n\n`;
+  md += `## 3个List\n### 确定清单\n- 华南区3个新客户签约完成\n- 产品V2.0按时发布\n\n### 风险清单\n- 华东区2个大客户签约延迟\n- 核心研发1人提出离职\n\n### 机会清单\n- 竞品X提价30%\n- 行业政策利好\n\n`;
+  md += `## 任务令\n1. 华东区2个延迟客户签约推进 | 张三 | 2026-07-15\n2. 渠道团队扩编方案 | 李四 | 2026-07-01\n3. 竞品提价客户主动出击 | 王五 | 2026-06-30\n\n`;
+  md += `---\n*由华为管理工具箱·经营分析会系统生成*`;
+  const blob = new Blob([md], { type: 'text/markdown' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = '经营分析报告.md';
+  a.click();
+}
+</script>
+</body>
+</html>
